@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+	height             : 96vh;
+	display            : flex;
+	flex-direction     : column;
+	align-items        : center;
+	justify-content    : center;
+	background-color   : hsl(185, 75%, 39%);
+	background-image   : url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+	background-repeat  : no-repeat;
+	background-position: -55% 275%, 150% -250%;
+	font-family        : 'Kumbh Sans', sans-serif;
+	font-weight        : 400;
+	color              : hsl(229, 23%, 23%);
+	font-size          : 18px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background-position: 125% 250%, -30% -100%;
+	}
+  }
+
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-15 {
+	font-size: 15px;
+}
+
+.card {
+	background-color: white;
+	max-width           : 350px;
+	border-radius   : 15px;
+	margin          : 0 auto;
+	box-shadow      : 0px 0px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-header img {
+	border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+	display        : flex;
+	flex-direction : column;
+	align-items    : center;
+	justify-content: center;
+}
+
+.card-body img {
+	border-radius   : 100%;
+	border          : 5px solid white;
+	margin-top      : -15%;
+	background-color: white;
+}
+
+.card-footer {
+	border-top     : 1px solid hsl(240, 0%, 94%);
+	display        : flex;
+	flex-direction : row;
+	align-items    : center;
+	justify-content: center;
+	padding        : .7rem;
+}
+
+.card-footer div p {
+	text-align: center;
+	padding   : 0 1.5rem;
+}
+
+.mt-1 {
+	margin-top: 1rem;
+}
+
+.mt-1\.5 {
+	margin-top: 1.5rem;
+}
+
+.mt-5-px {
+	margin-top: 5px;
+}
+
+.mt-10-px {
+	margin-top: 10px;
+}
+
+.mr-0\.5 {
+	margin-right: 0.5rem;
+}
+
+.ml-0\.5 {
+	margin-left: 0.5rem;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.title {
+	font-weight   : 700;
+	letter-spacing: 1.2;
+}
+
+.subtitle {
+	color: hsl(0, 0%, 59%);
+}
+
+.attribution {
+	background:white;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	bottom: 2rem;
+	position: absolute;
+	border-radius: 10px;
+	font-size: 12px;
+	max-width           : 350px;
+}
+
+a{
+	text-decoration: none;
+	color: hsl(185, 75%, 39%);;
+}
